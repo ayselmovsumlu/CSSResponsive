@@ -3,7 +3,58 @@ body {
   font-weight: 500;
 }
 
+#demo .box {
+  position: relative;
+}
 #demo .minibox {
-  border: 1px solid #1c8615;
-  min-width: 100px;
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: #4565d7;
+  padding: 10px;
+  margin: 10px 0;
+}
+#demo .abs {
+  position: absolute;
+  top: 320px;
+  left: 200px;
+}
+
+#task2 .box {
+  position: relative;
+}
+#task2 .minibox {
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: #376b41;
+  padding: 10px;
+  margin: 10px 0;
+}
+#task2 .abs {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+#task2 .absl {
+  position: absolute;
+  top: 160px;
+  left: 200px;
+}
+
+#task3 .box {
+  position: relative;
+}
+#task3 .minibox {
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: #d745c8;
+  padding: 10px;
+  margin: 10px 0;
+}
+#task3 .abs {
+  position: absolute;
+  top: 470px;
+  left: 300px;
 }/*# sourceMappingURL=style.css.map */
